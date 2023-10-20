@@ -1,0 +1,166 @@
+nav {
+  position: fixed;
+  width: 85%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 8vw;
+  box-shadow: 2px 2px 10px rgba(1, 0, 0, 0.15);
+}
+nav img {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+.logo_name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+nav p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  font-size: 21px;
+  color: navy;
+}
+nav .navigaton ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav .navigation ul li {
+  list-style: none;
+  margin-left: 10px;
+  display: inline;
+}
+nav .navigation ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+nav .navigation ul li a:hover {
+  color: blue;
+}
+#services {
+  background-image: /*linear-gradient(
+      rgba(255, 255, 255, 0.805),
+      rgba(205, 206, 219, 0.959)
+    ),*/ url("Crane.PNG");
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+#services .services {
+  padding-top: 60px;
+  padding-left: 200px;
+  color: #fff;
+  font-weight: 600;
+  align-items: center;
+}
+#experience .experience {
+  color: whitesmoke;
+  font-size: large;
+  background-color: darkgoldenrod;
+  padding: 10px 100px 10px 100px;
+  text-align: justify;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+#experience .experience h2 {
+  text-align: center;
+}
+#fabrication {
+  color: navy;
+  text-align: center;
+}
+.fabrication {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: auto;
+  justify-content: center;
+  background-color: rgb(215, 215, 236);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+  font-size: medium;
+}
+.electrical {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  justify-content: space-between;
+  color: navy;
+}
+.electrical img {
+  height: 220px;
+  width: 300px;
+}
+
+.fire_and_safety {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  justify-content: space-between;
+  color: navy;
+}
+.fire_and_safety img {
+  width: 300px;
+  height: 180px;
+}
+.mechanical {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  justify-content: space-between;
+  color: navy;
+}
+.mechanical img {
+  width: 300px;
+  height: 180px;
+}
+#project_and_construction {
+  background-color: navy;
+  margin: 40px 40px 40px 40px;
+  padding: 20px 20px 20px 20px;
+  font-size: large;
+}
+.project_mgt {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  justify-content: space-between;
+  color: white;
+}
+.project_mgt img {
+  width: 300px;
+  height: 180px;
+}
+.construction {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  justify-content: space-between;
+  color: white;
+}
+.construction img {
+  width: 300px;
+  height: 180px;
+}
+#HSE {
+  background-color: darkgoldenrod;
+  color: white;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 10px 100px 10px 100px;
+}

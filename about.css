@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 8vw;
+  box-shadow: 2px 2px 10px rgba(1, 0, 0, 0.15);
+}
+nav img {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+.logo_name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+nav p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  font-size: 21px;
+  color: navy;
+}
+nav .navigaton ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav .navigation ul li {
+  list-style: none;
+  margin-left: 10px;
+  display: inline;
+}
+nav .navigation ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+nav .navigation ul li a:hover {
+  color: blue;
+}
+#who_we_are {
+  background-image: linear-gradient(
+      rgba(220, 220, 233, 0.151),
+      rgba(32, 24, 1, 0.7)
+    ),
+    url(inspection.PNG);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 200px;
+
+  color: #fff;
+}
+
+#who_we_are h1 {
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  font-size: 50px;
+}
+section .about {
+  padding: 10px 100px 10px 100px;
+  text-align: justify;
+  width: 50%;
+  height: 100%;
+  background-color: navy;
+  font-size: 20px;
+  color: #fff;
+  margin: auto;
+}
+section .incorporated {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  padding: 0 150px;
+  justify-content: center;
+}
+
+section .incorporated img {
+  width: 70%;
+  height: 70%;
+}
+
+section .incorporated h2 {
+  font-weight: bolder;
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+}
+
+section .incorporated p {
+  font-size: large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#more {
+  background-color: darkgoldenrod;
+  width: 100%;
+  height: 500px;
+}
+
+#more .historic {
+  padding-top: 120px;
+  color: #fff;
+  margin: 50px 100px;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#more .historic h3 {
+  font-size: 30px;
+}

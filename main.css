@@ -1,0 +1,323 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 8vw;
+  box-shadow: 2px 2px 10px rgba(1, 0, 0, 0.15);
+  z-index: 1000;
+}
+nav img {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+.logo_name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+nav p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  font-size: 21px;
+  color: navy;
+  padding-top: 12px;
+}
+nav .navigaton ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav .navigation ul li {
+  list-style: none;
+  margin-left: 10px;
+  display: inline;
+}
+nav .navigation ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+nav .navigation ul li a:hover {
+  color: blue;
+}
+#home {
+  /*background-image: linear-gradient(rgba(4, 4, 49, 0.151), rgba(32, 24, 1, 0.7)),
+    url("oilrig.webp");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 80px;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: navy;
+}
+
+.oilrig {
+  width: 70%;
+  height: 80vh;
+  margin: auto;
+}
+
+.oilrig img {
+  width: 100%;
+  height: 80vh;
+}
+
+.photo1 {
+  position: relative;
+}
+
+.button2 {
+  position: absolute;
+  top: 25%;
+  left: -1%;
+  background-color: white;
+  color: navy;
+  font-weight: 300;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  border: 6px solid rgb(235, 226, 226);
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px 10px rgba(1, 0, 0, 0.15);
+}
+.button3 {
+  position: absolute;
+  top: 50%;
+  left: -1%;
+  background-color: white;
+  color: navy;
+  font-weight: 300;
+  font-size: 20px;
+  height: 50px;
+  width: 250px;
+  border: 6px solid rgb(235, 226, 226);
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px 10px rgba(1, 0, 0, 0.15);
+}
+.button4 {
+  position: absolute;
+  top: 75%;
+  left: -1%;
+  background-color: white;
+  color: navy;
+  font-weight: 300;
+  font-size: 20px;
+  height: 50px;
+  width: 300px;
+  border: 6px solid rgb(235, 226, 226);
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px 10px rgba(1, 0, 0, 0.15);
+}
+
+.our_vision {
+  width: 30%;
+  height: 80vh;
+  font-size: 20px;
+}
+
+#home .our_vision ul li {
+  list-style-type: none;
+}
+
+button {
+  color: white;
+  background-color: rgb(231, 121, 12);
+  border: none;
+  height: 35px;
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.CEO {
+  background-color: rgb(244, 238, 238);
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  width: 100%;
+  font-size: 20px;
+  text-align: justify;
+  justify-content: space-between;
+  padding: 0 50px 0 50px;
+  gap: 20px;
+  color: navy;
+}
+
+.CEOimage {
+  width: 30%;
+
+  padding-top: 150px;
+  padding-left: 0;
+}
+
+.CEO img {
+  width: 200px;
+  height: 200px;
+}
+
+.CEO .content {
+  padding-top: 120px;
+  width: 70%;
+}
+section .about {
+  padding: 50px 100px 50px 100px;
+  text-align: justify;
+  width: 50%;
+  height: 100%;
+  background-color: navy;
+  color: #fff;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: larger;
+}
+
+.section_mechanic {
+  display: flex;
+  justify-content: center;
+}
+
+.images_about {
+  display: grid;
+}
+
+#goals-services .construction {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  gap: 6rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: navy;
+}
+#goals-services .construction h3 {
+  color: navy;
+}
+#goals-services .construction img {
+  height: 320px;
+}
+#goals-services .construction .goals {
+  height: 100%;
+  width: 30%;
+  font-size: larger;
+}
+#goals-services .construction .services {
+  margin-left: 50px;
+  font-size: larger;
+}
+/* footer */
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 8vw;
+  background-color: #101c32;
+  color: #fff;
+  margin-top: auto;
+  position: relative;
+  width: 100%;
+}
+
+footer h6 {
+  color: #ebe2e2;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+.footer-col {
+  padding-bottom: 40px;
+}
+
+.footer li {
+  list-style: none;
+  color: #7b838a;
+  padding: 10px 0;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.footer li:hover {
+  color: #ebe2e2;
+}
+
+.footer p {
+  color: #7b838a;
+}
+
+.footer .subscribe {
+  margin-top: 20px;
+}
+
+.footer input {
+  width: 220px;
+  padding: 15px 12px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.footer-col a.yellow {
+  color: white;
+  background-color: rgb(221, 221, 19);
+  transition: 0.3s ease;
+  padding: 15px 12px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer-col a.yellow:hover {
+  color: rgb(21, 21, 100);
+  background: white;
+}
+.footer .copyright {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.copyright p {
+  color: white;
+}
+
+.footer .copyright .member-icons {
+  margin-top: 0;
+}
+
+.footer .copyright .member-icons i {
+  padding: 10px 13px;
+  border: 1px solid rgb(21, 21, 100);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.footer .copyright .member-icons i:hover {
+  background: #fdc938;
+  color: #2c2c2c;
+}
